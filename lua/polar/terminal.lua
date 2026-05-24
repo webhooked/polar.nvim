@@ -21,8 +21,8 @@ function terminal.apply()
   vim.g.terminal_color_3 = c.aurora.yellow
   vim.g.terminal_color_11 = c.aurora.yellow
 
-  vim.g.terminal_color_4 = c.frost.artic_water
-  vim.g.terminal_color_12 = c.frost.artic_water
+  vim.g.terminal_color_4 = c.frost.arctic_water
+  vim.g.terminal_color_12 = c.frost.arctic_water
 
   vim.g.terminal_color_5 = c.aurora.purple
   vim.g.terminal_color_13 = c.aurora.purple

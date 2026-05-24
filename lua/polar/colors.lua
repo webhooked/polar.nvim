@@ -15,8 +15,9 @@ local colors = {}
 ---@class Polar.Palette.Frost
 ---@field polar_water string polar 7
 ---@field ice string polar 8
----@field artic_water string polar 9
----@field artic_ocean string polar 10
+---@field arctic_water string polar 9
+---@field arctic_ocean string polar 10
+---@field arctic_grass string polar 11
 
 ---@class Polar.Palette.Aurora
 ---@field red string polar 11
@@ -47,16 +48,17 @@ local defaults = {
     brightest = "#ECEFF4", -- polar6
   },
   frost = {
-    polar_water = "#8FBCBB", -- polar7
-    ice = "#88C0D0", -- polar8
-    artic_water = "#81A1C1", -- polar9
-    artic_ocean = "#5E81AC", -- polar10
+    polar_water = "#9ac2c1", -- polar7
+    ice = "#93c6d4", -- polar8
+    arctic_water = "#8daac7", -- polar9
+    arctic_ocean = "#6E8DB4", -- polar10
+    arctic_grass = "#dcd0bd", -- polar11
   },
   aurora = {
     red = "#BF616A", -- polar11
     orange = "#D08770", -- polar12
     yellow = "#EBCB8B", -- polar13
-    green = "#98c4a8", -- "#A6C8A0", -- #A3BE8C", -- polar14 -- #8cbe9f
+    green = "#8FBCBB", -- "#A6C8A0", -- #A3BE8C", -- polar14 -- #8cbe9f
     purple = "#B48EAD", -- polar15
   },
   none = "NONE",

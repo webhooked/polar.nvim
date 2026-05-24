@@ -7,7 +7,7 @@ function cmp.highlights()
     CmpItemAbbrDeprecated = { fg = c.polar_night.light },
     CmpItemAbbrMatch = { fg = c.frost.ice, bold = true },
     CmpItemAbbrMatchFuzzy = { fg = c.frost.ice, bold = true },
-    CmpItemKind = { fg = c.frost.artic_water },
+    CmpItemKind = { fg = c.frost.arctic_water },
     CmpItemKindVariable = { fg = c.frost.ice },
     CmpItemKindInterface = { fg = c.frost.ice },
     CmpItemKindClass = { fg = c.frost.ice },
@@ -62,7 +62,7 @@ function cmp.highlights()
 
     BlinkCmpKindCodeium = { fg = c.aurora.green },
     BlinkCmpKindCopilot = { fg = c.aurora.green },
-    BlinkCmpKind = { fg = c.frost.artic_water },
+    BlinkCmpKind = { fg = c.frost.arctic_water },
   }
 end
 

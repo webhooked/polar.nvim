@@ -28,7 +28,7 @@ function git.highlights()
     GitGraphBranchName = { fg = c.aurora.red },
     GitGraphBranchTag = { fg = c.aurora.yellow },
     GitGraphBranchMsg = { fg = c.snow_storm.origin },
-    GitGraphBranch1 = { fg = c.frost.artic_ocean },
+    GitGraphBranch1 = { fg = c.frost.arctic_ocean },
     GitGraphBranch2 = { fg = c.aurora.green },
     GitGraphBranch3 = { fg = c.aurora.red },
     GitGraphBranch4 = { fg = c.aurora.yellow },

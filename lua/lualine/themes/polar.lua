@@ -1,12 +1,15 @@
 local c = require("polar.colors").palette
+local utils = require("polar.utils")
 local config = require("polar.config").options.styles
 
 local polar = {}
 
+local global_bg = utils.make_global_bg(true)
+
 polar.normal = {
   a = { fg = c.polar_night.bright, bg = c.frost.polar_water },
-  b = { fg = c.snow_storm.origin, bg = c.polar_night.origin },
-  c = { fg = c.snow_storm.origin, bg = c.polar_night.origin },
+  b = { fg = c.snow_storm.origin, bg = global_bg },
+  c = { fg = c.snow_storm.origin, bg = global_bg },
 }
 
 polar.insert = {
@@ -26,9 +29,9 @@ polar.command = {
 }
 
 polar.inactive = {
-  a = { fg = c.none, bg = c.polar_night.origin },
-  b = { fg = c.none, bg = c.polar_night.origin },
-  c = { fg = c.none, bg = c.polar_night.origin },
+  a = { fg = c.none, bg = global_bg },
+  b = { fg = c.none, bg = global_bg },
+  c = { fg = c.none, bg = global_bg },
 }
 
 if config.lualine_bold then

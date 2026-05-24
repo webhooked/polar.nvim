@@ -6,7 +6,7 @@ function ui.highlights()
   return {
     -- folke/which-key.nvim
     WhichKey = { fg = c.frost.ice, bold = true },
-    WhichKeyGroup = { fg = c.frost.artic_water },
+    WhichKeyGroup = { fg = c.frost.arctic_water },
     WhichKeyDesc = { fg = c.snow_storm.origin },
     WhichKeyFloat = { bg = c.polar_night.bright },
     WhichKeyIconOrange = { fg = c.aurora.orange },
@@ -42,7 +42,7 @@ function ui.highlights()
     NavicIconsOperator = { link = "@lsp.type.operator" },
     NavicIconsTypeParameter = { link = "@lsp.type.typeParameter" },
     NavicText = { link = "@text" },
-    NavicSeparator = { fg = c.frost.artic_water, bg = c.polar_night.brighter },
+    NavicSeparator = { fg = c.frost.arctic_water, bg = c.polar_night.brighter },
 
     -- stevearc/aerial.nvim
     AerialLine = { bg = c.polar_night.bright },
@@ -103,7 +103,7 @@ function ui.highlights()
     AerialVariable = { link = "@variable" },
 
     -- p00f/nvim-ts-rainbow
-    rainbowcol1 = { fg = c.frost.artic_water },
+    rainbowcol1 = { fg = c.frost.arctic_water },
     rainbowcol2 = { fg = c.aurora.green },
     rainbowcol3 = { fg = c.aurora.red },
     rainbowcol4 = { fg = c.aurora.yellow },
@@ -114,7 +114,7 @@ function ui.highlights()
     --"HiPhish/rainbow-delimiters.nvim",
     RainbowDelimiterRed = { fg = c.aurora.red },
     RainbowDelimiterYellow = { fg = c.aurora.yellow },
-    RainbowDelimiterBlue = { fg = c.frost.artic_ocean },
+    RainbowDelimiterBlue = { fg = c.frost.arctic_ocean },
     RainbowDelimiterOrange = { fg = c.aurora.green },
     RainbowDelimiterGreen = { fg = c.aurora.orange },
     RainbowDelimiterCyan = { fg = c.frost.ice },

@@ -14,9 +14,9 @@ function notify.highlights()
     NotifyWARNIcon = { fg = c.aurora.yellow },
     NotifyWARNTitle = { fg = c.aurora.yellow },
 
-    NotifyINFOBorder = { fg = utils.darken(c.frost.artic_water, 0.5, c.polar_night.origin) },
-    NotifyINFOIcon = { fg = c.frost.artic_water },
-    NotifyINFOTitle = { fg = c.frost.artic_water },
+    NotifyINFOBorder = { fg = utils.darken(c.frost.arctic_water, 0.5, c.polar_night.origin) },
+    NotifyINFOIcon = { fg = c.frost.arctic_water },
+    NotifyINFOTitle = { fg = c.frost.arctic_water },
 
     NotifyDEBUGBorder = { fg = c.polar_night.bright },
     NotifyDEBUGIcon = { fg = c.snow_storm.origin },
